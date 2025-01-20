@@ -1,9 +1,10 @@
-namespace ExamenP3NarvaezEsteban.Views;
-
-public partial class PaginaListaPaises : ContentPage
+namespace ExamenP3NarvaezEsteban.Views
 {
-	public PaginaListaPaises()
-	{
-		InitializeComponent();
-	}
+    public partial class PaginaListaPaisesEN : ContentPage
+    {
+        public PaginaListaPaisesEN()
+        {
+            InitializeComponent();
+        }
+    }
 }

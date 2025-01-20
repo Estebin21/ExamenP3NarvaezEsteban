@@ -1,9 +1,10 @@
-namespace ExamenP3NarvaezEsteban.Views;
-
-public partial class PaginaBusquedaPais : ContentPage
+namespace ExamenP3NarvaezEsteban.Views
 {
-	public PaginaBusquedaPais()
-	{
-		InitializeComponent();
-	}
+    public partial class PaginaBusquedaPaisEN : ContentPage
+    {
+        public PaginaBusquedaPaisEN()
+        {
+            InitializeComponent();
+        }
+    }
 }

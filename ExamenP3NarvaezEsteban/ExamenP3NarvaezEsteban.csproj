@@ -65,13 +65,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\PaginaBusquedaPais.xaml">
+	  <Compile Update="Views\PaginaBusquedaPaisEN.xaml.cs">
+	    <DependentUpon>PaginaBusquedaPaisEN.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PaginaListaPaisesEN.xaml.cs">
+	    <DependentUpon>PaginaListaPaisesEN.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PaginaPrincipalEN.xaml.cs">
+	    <DependentUpon>PaginaPrincipalEN.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\PaginaBusquedaPaisEN.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PaginaListaPaises.xaml">
+	  <MauiXaml Update="Views\PaginaListaPaisesEN.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PaginaPrincipal.xaml">
+	  <MauiXaml Update="Views\PaginaPrincipalEN.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

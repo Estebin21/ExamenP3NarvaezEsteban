@@ -78,7 +78,7 @@ namespace ExamenP3NarvaezEsteban.ViewModels
                     Nombre = pais.Name.Official,
                     Region = pais.Region,
                     EnlaceGoogleMaps = pais.Maps.GoogleMaps,
-                    NombreUsuario = "ENarvaez" // Cambiar por tu nombre de usuario
+                    NombreUsuario = "ENarvaez" 
                 };
                 conexion.Insert(paisDB);
             }
